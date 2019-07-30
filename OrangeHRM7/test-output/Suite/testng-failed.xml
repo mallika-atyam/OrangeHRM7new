@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browser1" value="FireFox"/>
+    <parameter name="Password1" value="mercury"/>
+    <parameter name="TestURL1" value="http://newtours.demoaut.com/"/>
+    <parameter name="UserName1" value="mercury"/>
+    <classes>
+      <class name="Nationality.MercuryParameters2FireFox">
+        <methods>
+          <include name="Test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Nationality.MercuryParameters2FireFox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

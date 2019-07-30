@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="classes"  >
+
+  <test name="AllTests_April28">
+    <classes>
+      <class name="Employee.AddEmpDataProvider4"/>
+       <class name="Employee.ExportEmployees"/>
+    </classes>
+  </test> 
+  
+</suite> 
